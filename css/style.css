@@ -98,6 +98,16 @@ button:hover {
     padding: 10px;
 }
 
+/* QUOTE */
+
+.top {
+    text-align: center;
+    padding: 10px;
+}
+
+.quote {
+    font-size: 16px;
+}
 
 /* Left Container */
 

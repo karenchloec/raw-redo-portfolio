@@ -6,9 +6,7 @@ $(document).ready(function() {
             $('#emailmelogo').fadeIn(1000);
         });
     });
-});
 
-$(document).ready(function() {
     $(window).scroll(function() {
         if ($(this).scrollTop() > 0) {
             $('.navigation').addClass('fixed-top');
@@ -16,5 +14,8 @@ $(document).ready(function() {
             $('.navigation').removeClass('fixed-top');
         }
     });
-});
 
+    $('.quote').animate({
+        'font-size': '50px'
+    }, 1000);
+});
