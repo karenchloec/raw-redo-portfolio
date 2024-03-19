@@ -88,6 +88,17 @@ button:hover {
     margin-right: 0;
 }
 
+.fixed-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #E8DEFF;
+    z-index: 1000;
+    padding: 10px;
+}
+
+
 /* Left Container */
 
 .myValues {
