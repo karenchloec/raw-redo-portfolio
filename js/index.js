@@ -15,6 +15,8 @@ $(document).ready(function() {
         }
     });
 
+
+/* idk how to make it look better*/
     $('.quote').animate({
         'font-size': '50px'
     }, 1000);
